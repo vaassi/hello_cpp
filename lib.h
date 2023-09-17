@@ -1,5 +1,5 @@
 #pragma once
 
-#include "version.h.in"
+#include "version.h"
 
 int version();
