@@ -1,5 +1,6 @@
 #include "lib.h"
+#include "version.h"
 
-std::string version() {
-    return "1.0.0";
+int version() {
+    return PROJECT_VERSION_PATCH;
 }

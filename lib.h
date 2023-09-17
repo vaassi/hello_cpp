@@ -1,6 +1,5 @@
 #pragma once
 
-#include <iostream>
-#include <string>
+#include "version.h.in"
 
-std::string version();
+int version();
